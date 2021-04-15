@@ -1,8 +1,214 @@
 body {
-    background-image: url(images/fon.jpg);
-    -webkit-background-size:cover;
-    -moz-background-size: cover;
-    -o-background-size:cover;
-    background-size:cover;
-  }
-  
+  background-color: #f8f8f8;
+
+}
+
+#upshap{ 
+width: auto;
+height:  64px;
+background-color:#2a2b39; 
+text-align: center;
+
+font-size: 22px;
+color: wheat;
+box-shadow:1px -7px 9px 0px rgba(72,75,78,1);
+-webkit-box-shadow:1px -7px 9px 0px rgba(72,75,78,1);
+-moz-box-shadow:1px -7px 9px 0px rgba(72,75,78,1);
+}
+
+#menu{
+
+  height:64px; 
+  width:100%; 
+    background-color:#2a2b39;
+    box-shadow:1px 7px 9px 2px rgba(72,75,78,1);
+-webkit-box-shadow:1px 7px 9px 2px rgba(72,75,78,1);
+-moz-box-shadow:1px 7px 9px 2px rgba(72,75,78,1);
+
+}
+
+nav{
+
+  text-align: center;
+
+}
+nav a {
+   text-decoration: none;
+  padding: 0 60px;
+  color: wheat;
+  font-size: 30px;
+  text-transform: uppercase;
+  transition: 1s;
+  overflow: hidden;
+}
+
+nav a:hover {
+  color: #fff;
+
+}
+nav a:hover {
+  animation: animate .29s linear forwards; 
+
+}
+
+#wrapper{
+height: auto;
+width: auto ;
+background: rgb(35,36,36);
+background: linear-gradient(130deg, rgba(35,36,36,1) 0%, rgba(92,90,90,1) 82%);
+color:wheat;
+
+display:inline-block;
+margin: 15px 10px; 
+text-indent: 7px;
+text-align: 20px 5px;
+box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+-webkit-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+-moz-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+}
+
+#table{
+ height: auto;
+width: auto ;
+background: rgb(35,36,36);
+background: linear-gradient(130deg, rgba(35,36,36,1) 0%, rgba(92,90,90,1) 82%);
+color:wheat;
+margin: 15px 10px; 
+display: grid;
+justify-content: center;
+box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+-webkit-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+-moz-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+ text-decoration: none;
+
+}
+
+.footer{
+
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background: #2a2b39;
+  color:wheat;
+  box-shadow:1px -2px 9px 0px rgba(72,75,78,1);
+  -webkit-box-shadow:1px -2px 9px 0px rgba(72,75,78,1);
+  -moz-box-shadow:1px -2px 9px 0px rgba(72,75,78,1);
+}
+
+
+#text1{
+
+
+  height: auto;
+width: auto ;
+background:#eaeaea;
+color:#707070;
+
+display:inline-block;
+margin: 15px 10px; 
+
+text-align: center;
+box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+-webkit-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+-moz-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+}
+
+table.cinereousTable {
+  border: 6px solid #948473;
+  background-color: #FFE3C6;
+  width: 100%;
+  height: 65px;
+  text-align: center;
+}
+table.cinereousTable td, table.cinereousTable th {
+  border: 1px solid #948473;
+  padding: 4px 4px;
+}
+table.cinereousTable tbody td {
+  font-size: 18px;
+}
+table.cinereousTable thead {
+  background: #948473;
+  background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: linear-gradient(to bottom, #afa396 0%, #9e9081 66%, #948473 100%);
+}
+h1{
+font-size: 18px;
+
+font-weight: 400;
+}
+
+
+#info{
+  height: auto;
+  width:auto;
+  background: rgb(35,36,36);
+  background: linear-gradient(130deg, rgba(35,36,36,1) 0%, rgba(92,90,90,1) 82%);
+  color:wheat;
+  margin: 15px 10px; 
+  display: grid;
+  justify-content: center;
+  box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+  -webkit-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+  -moz-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+   text-decoration: none;
+
+}
+
+#form{
+
+  width: 100%;
+text-align: center;
+  border-radius: 10px; 
+  font-family: sans-serif; 
+  letter-spacing: 10px;
+  background: rgb(35,36,36);
+  background: linear-gradient(130deg, rgba(35,36,36,1) 0%, rgba(92,90,90,1) 82%);
+  box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+  -webkit-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+  -moz-box-shadow:2px 9px 9px 0px rgba(72,75,78,1);
+   text-decoration: none;
+}
+
+.butan{
+  position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+width: 550px; ;
+height: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px; 
+ 
+  letter-spacing: 10px;
+  font-size: 16px;
+  color :#fff ; 
+
+  background-color: #0071f0; 
+  outline: none;  
+  cursor: pointer; 
+  transition: 0.3s; 
+}
+
+input{
+  width: 500px;
+  height: 35px;
+  text-align: center;
+    border-radius: 110px; 
+    box-shadow: 0 4px 16px rgb(0, 0, 0); 
+    font-family: sans-serif; 
+    letter-spacing: 10px;
+  font-size: 16px;
+}
+
+textarea{
+  width: 500px;
+  height: 35px;
+  text-align: center;
+    border-radius: 110px; 
+    box-shadow: 0 4px 16px rgb(0, 0, 0); 
+    font-family: sans-serif; 
+    letter-spacing: 10px;
+  font-size: 16px;
+}
